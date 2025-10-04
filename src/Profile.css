@@ -1,0 +1,110 @@
+body{
+    --main-color: rgb(24 24 24);
+    --secondary-color: #222426;
+    --text-primary-color: white;
+}
+
+.profile {
+    background-color: var(--secondary-color);
+    color: var(--text-primary-color);
+    width: 100%;
+    height: 100vh;
+    grid-area: profile;
+    padding: 40px;
+}
+
+.profile-top{
+    display: flex;
+    height: 20%;
+    margin-bottom: 30px;
+    gap: 100px;
+}
+
+.profile-top_photo{
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.profile-top_photo img{
+    border-radius: 50%;
+    width: 80%;
+    height: 100%;
+}
+
+.profile-top_info{
+    height: 100%;
+    width: 40%;
+}
+
+.profile-top_info ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.list-item{}
+
+.user_info-card {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--text-primary-color);
+    opacity: 0.7;
+    color: var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.user_info-card p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.user_info-card span {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.user_info-card p:first-of-type span {
+    margin-left: 43px;
+}
+
+.user_info-card p:nth-of-type(2) span {
+    margin-left: 35px;
+}
+
+.user_info-card p:nth-of-type(3) span {
+    margin-left: 33px;
+}
+
+.profile-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.name span{
+    opacity: 0.5;
+    font-weight: normal;
+}
+
+.about{}
+
+.profile-button{
+    padding: 5px 50px;
+}

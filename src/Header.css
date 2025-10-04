@@ -1,0 +1,15 @@
+body{
+    --main-color: rgb(24 24 24);
+    --secondary-color: #222426;
+    --text-primary-color: white;
+
+}
+
+header {
+    background-color: var(--main-color);
+    color: var(--text-primary-color);
+    width: 100%;
+    height: 100px;
+    grid-area: header;
+    border: 1px var(--secondary-color) solid;
+}
