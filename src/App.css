@@ -6,6 +6,15 @@
   grid-template-rows: repeat(1fr, 8);
   grid-template-areas: 
     "header header"
-    "nav profile"
+    "nav content"
   ;
+}
+
+.content {
+    background-color: var(--secondary-color);
+    color: var(--text-primary-color);
+    width: 100%;
+    height: fit-content;
+    grid-area: content;
+    padding: 40px;
 }
